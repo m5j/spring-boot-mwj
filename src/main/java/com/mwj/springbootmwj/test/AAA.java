@@ -20,7 +20,7 @@ public class AAA {
     //需要请求的目标网址
     private static final String TARGET_URL = "http://api.hailiangip.com:8422/api/myIp";
     //提取链接
-    private static final String API_URL = "http://webapi.http.zhimacangku.com/getip?num=1&type=1&pro=440000&city=440100&yys=0&port=11&pack=255168&ts=0&ys=0&cs=0&lb=0&sb=0&pb=4&mr=1&regions=";
+    private static final String API_URL = "http://webapi.http.zhimacangku.com/getip?num=1&type=1&pro=110000&city=110200&yys=0&port=1&pack=255717&ts=0&ys=0&cs=0&lb=1&sb=0&pb=4&mr=1&regions=";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         String result = HttpUtil.get(API_URL);
