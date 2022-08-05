@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+
+
+#线程池常量
+async:
+  executor:
+    thread:
+      core_pool_size: 40   # 配置核心线程数
+      max_pool_size: 60    # 配置最大线程数
+      queue_capacity: 9999   # 配置队列大小
+      keep_alive_seconds: 30    # 配置线程最大空闲时间
+      name:
+        prefix: mwj-async-   # 配置线程池中的线程的名称前缀
